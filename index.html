@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="form">
+    <form class="form" action="text-direction" method="GET">
+        <!--action="text-direction" куди відправляється наша форма-->
+        <!--method="GET" що буде відправлятися з відправленими даними-->
+       
         <h2>Sign in</h2>
+        
 <!-- 1 спосіб за id
         <label for="email-form">Enter your email</label>
         <input type="text" placeholder="Enter your email" autofocus id="email-form"/>
-        
-        
         2 спосіб вкладення інпуту в лейбел-->
-        <label>Enter your email<input type="text" placeholder="Enter your email"/></label>
-        <label>Enter your password  <input type="password" placeholder="Enter your password"/></label>
-       
+        <label>Enter your email<input type="text" placeholder="example@gmail.com"/></label>
+
+        <label for="password-form">Enter your password  </label>
+        <input type="password" placeholder="Qwerty123" id="password-form"/>
+
         <button type="submit">Sign in</button>
         <button type="reset">Reset</button>
     </form>
